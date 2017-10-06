@@ -97,7 +97,59 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+body {
+    background-color: #0e6266;
+    font-family: 'Open Sans', sans-serif; 
+}
 
+h1 {
+    font-family: 'Bree Serif', serif;
+    font-size: 2em;
+    color: navy;
+    padding-top: .5em;
+}
+
+p {
+    margin: 0;
+}
+
+p.location {
+    font-size: 1.25em;
+    font-weight: 700;
+}
+
+p.condition {
+    padding-bottom: 1em;
+}
+
+.container {
+    background-color: #ccc;
+    width: 67%;
+    max-width: 600px;
+    border-radius: .8em;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.temperature {
+  font-size: 2em;
+}
+
+.fahrenhiet {
+  color: blue;
+}
+
+.fahrenhiet:hover {
+  color: red;
+}
+
+.celsius {
+  color: blue;
+}
+
+.celsius:hover {
+  color: red;
+}
 
 
 
